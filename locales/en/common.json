@@ -2,7 +2,7 @@
   "appName": "Saffron Table",
   "tagline": "A neighbourhood kitchen. Browse the menu, filter by diet and build your order.",
   "heroTitle": "Good food, clearly labelled, ready to order",
-  "heroSub": "Search the menu, filter for vegetarian, vegan or gluten free dishes, and add what you like to your order list. Prices are in {{currency}}.",
+  "heroSub": "Search the menu, filter for vegetarian, vegan or gluten free dishes, and add what you like to your order list. Prices are in EGP.",
   "ctaStart": "Browse the menu",
   "ctaOrder": "View my order",
   "searchPh": "Search dishes, example: lentil soup",
