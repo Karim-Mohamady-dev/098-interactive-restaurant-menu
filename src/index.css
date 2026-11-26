@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap');
+@import 'tailwindcss';
+
+@theme {
+  --font-sans: 'Manrope', system-ui, -apple-system, 'Segoe UI', Tahoma, sans-serif;
+  --color-accent: #b45309;
+  --color-accent-soft: #fef3c7;
+  --color-ink: #181818;
+}
+
+html { font-family: var(--font-sans); }
+body { background-color: #ffffff; color: #181818; }
+h1, h2, h3, h4 { text-wrap: balance; }
+p { text-wrap: pretty; }
+.heading-1 { font-size: var(--text-6xl); line-height: 1; font-weight: 600; }
+.heading-2 { font-size: var(--text-5xl); line-height: 1; font-weight: 600; }
+.heading-3 { font-size: var(--text-4xl); line-height: 2.5rem; font-weight: 600; }
+.heading-5 { font-size: var(--text-2xl); line-height: 2rem; font-weight: 600; }
+.heading-6 { font-size: var(--text-xl); line-height: 1.75rem; font-weight: 600; }
+.title-1 { font-size: var(--text-xl); line-height: 1.75rem; font-weight: 500; }
+.title-2 { font-size: var(--text-lg); line-height: 1.75rem; font-weight: 500; }
+.title-3 { font-size: var(--text-base); line-height: 1.5rem; font-weight: 500; }
+.title-4 { font-size: var(--text-sm); line-height: 1.25rem; font-weight: 500; }
+.body-2 { font-size: var(--text-base); line-height: 1.5rem; font-weight: 500; }
+.body-3 { font-size: var(--text-base); line-height: 1.5rem; font-weight: 400; }
+.body-5 { font-size: var(--text-sm); line-height: 1.25rem; font-weight: 500; }
+.body-6 { font-size: var(--text-sm); line-height: 1.25rem; font-weight: 400; }
+.button-md { font-size: var(--text-base); line-height: 1.5rem; font-weight: 600; }
+.button-sm { font-size: var(--text-sm); line-height: 1.25rem; font-weight: 600; }
+.caption-2 { font-size: var(--text-sm); line-height: 1.25rem; font-weight: 400; }
+.caption-4 { font-size: var(--text-xs); line-height: 1rem; font-weight: 500; }
+.caption-5 { font-size: var(--text-xs); line-height: 1rem; font-weight: 400; }
+.motion-base { transition-timing-function: cubic-bezier(0.22,1,0.36,1); transition-duration: 500ms; }
+.motion-hover { transition-timing-function: cubic-bezier(0.22,1,0.36,1); transition-duration: 300ms; }
+:focus-visible { outline: 2px solid #b45309; outline-offset: 2px; }
+.hero-gradient { background: linear-gradient(to left, #000000, #666666); -webkit-background-clip: text; background-clip: text; color: transparent; }
+[dir="rtl"] .hero-gradient { background: linear-gradient(to right, #000000, #666666); -webkit-background-clip: text; background-clip: text; color: transparent; }
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { transition-duration: 0.01ms !important; animation-duration: 0.01ms !important; }
+}
